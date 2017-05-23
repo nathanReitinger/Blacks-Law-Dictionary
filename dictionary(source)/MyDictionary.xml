@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	This is a sample dictionary source file.
+	It can be built using Dictionary Development Kit.
+-->
+<d:dictionary xmlns="http://www.w3.org/1999/xhtml" xmlns:d="http://www.apple.com/DTDs/DictionaryService-1.0.rng">
+
+<d:entry id="A." d:title="A.">
+	<d:index d:value="A."/>
+	<div d:priority="1"><h1>A.</h1></div>
+	<div>
+	a.1. (usu. cap. &amp; often ital.) A hypothetical person.2. [Latin] From;by; in; on; of; at. 3.[Law Latin] With. 4.[Law French] Of; at; to; for; in; with. 5.Securities. A letterused  in  a  newspaper  stock-transaction  table  to  indicate  that  cash  was  paid  during  the  year  inaddition to regular dividends. 6.Securities. A letter  used  in a  newspaper  mutual-fund transactiontable  to  indicate a  yield  that  may  include  capital  gains  and  losses as  well as  current interest. 7.(cap.) Securities. A letter used in a newspaper corporate earnings report to identify the AmericanStock  Exchange  as  the  primary  market  of  a  firm’s  common  stock.  8.  (cap.)  Securities.  Anabove-average  grade  given  to  a  debt  obligation  by  a  rating  agency.  •  The  grades,  as  ranked  byStandard  &amp;  Poor’s,  range  from  AAA  (highest)  down  to  CCC.  The  equivalent  standards  fromMoody’s  are  Aaa,  Aa,  A,  Baa,  and  so  on  down  to  C.  9.Marine  insurance.  A  rating  assigned  inLloyd’s    Register    of    Shipping    to    ships    considered    to    be    in    first-class    condition.10.abbr.ADVERSUS. 11.(cap.) Hist. A scarlet letter worn as punishment by a person con-victed ofadultery. 12.Roman law. An abbreviation for absolvo written on wooden tablets by criminal-courtjudges to  indicate a  vote  for  acquittal.  13.Roman  law.  An  abbreviation  for  antiquo  (“for  the  oldlaw”)  written  on  wooden  tablets  by  the  participants  in  a  popular  assembly  to  indicate  a  voteagainst a proposed bill.
+	</div>
+</d:entry>
+<d:entry id="AAA" d:title="AAA">
+	<d:index d:value="AAA"/>
+	<div d:priority="1"><h1>AAA</h1></div>
+	<div>
+	AAA.abbr.1.AMERICAN ARBITRATION ASSOCIATION. 2.AMERICAN ACCOUNTINGASSOCIATION    .    3.AMERICAN    ACADEMY    OF    ACTUARIES.    4.AGRICULTURALADJUSTMENT ACT . 5. See accumu-lated-adjustments account under ACCOUNT.
+	</div>
+</d:entry>
+<d:entry id="AAC" d:title="AAC">
+	<d:index d:value="AAC"/>
+	<div d:priority="1"><h1>AAC</h1></div>
+	<div>
+	.abbr.ANNO ANTE CHRISTUM.
+	</div>
+</d:entry>
+
+
+
+</d:dictionary>
