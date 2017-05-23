@@ -23,7 +23,7 @@ This is a beta of a ".dictionary" version of black's legal dictionary (8th editi
 
 1. scrape from http://dictionary.sovereignconnection.com into pandas dataframe <[scraper](https://github.com/nathanReitinger/Blacks8-Mac-Dictionary/blob/master/code/scraper)>
 2. iterate through a dataframe and place terms and definitions in .xml format as a string, to export <[build](https://github.com/nathanReitinger/Blacks8-Mac-Dictionary/blob/master/code/build)>
-3. compile apple dictionary with xml text produced in step 2 <[dictionary(source)](https://github.com/nathanReitinger/Blacks8-Mac-Dictionary/tree/master/dictionary(source))>
+3. compile apple dictionary with xml text produced in step 2 <[dictionary(source)](https://github.com/nathanReitinger/Blacks8-Mac-Dictionary/tree/master/dictionary(source%20code))>
 
 ### Notes 
 
