@@ -3,7 +3,7 @@
 
 ![screen](https://github.com/nathanReitinger/Blacks8-Mac-Dictionary/blob/master/media/screen.png) 
 
-This is a beta of a ".dictionary" version of black's legal dictionary (8th edition). This permits users to take advantage of the "lookup" function native to mac. For simple use, follow these steps: 
+This is a beta of a ".dictionary" version of black's legal dictionary (8th edition). It permits users to take advantage of the "lookup" function native to mac. For simple use, follow these steps: 
 
 1. download the .dictionary
 2. open the dictionary application
@@ -12,6 +12,7 @@ This is a beta of a ".dictionary" version of black's legal dictionary (8th editi
 5. go back to the dictionary application, click "preferences" 
 6. scroll down until you find "Blacks_8_[beta]" and check that box
 7. you now have it! you can search for words in the dictionary, or use the three-finger tap 
+
 ![three-finger tap](https://github.com/nathanReitinger/Blacks8-Mac-Dictionary/blob/master/media/three_finger_tap.gif)
 
 
