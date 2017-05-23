@@ -5,7 +5,7 @@
 
 This is a beta of a ".dictionary" version of black's legal dictionary (8th edition). It permits users to take advantage of the "lookup" function native to mac. For simple use, follow these steps: 
 
-1. download the .dictionary <[link to dictionary](https://github.com/nathanReitinger/Blacks8-Mac-Dictionary/tree/master/dictionary)>
+1. download the .dictionary <[link to dictionary](https://github.com/nathanReitinger/Blacks8-Mac-Dictionary/tree/master/dictionary(download))>
 2. open your own dictionary application
 3. on the top menu, click "file" then "Open Dictionaries Folder"
 4. put the .dictionary file you just downloaded into the folder you just opened
