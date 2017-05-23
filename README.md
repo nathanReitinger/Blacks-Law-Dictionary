@@ -3,7 +3,7 @@
 
 ![screen](https://github.com/nathanReitinger/Blacks8-Mac-Dictionary/blob/master/media/screen.png) 
 
-This is a beta version of a ".dictionary" version of black's legal dictionary (8th edition). This permits users to take advantage of the "lookup" function native to mac. For simple use, follow these steps: 
+This is a beta of a ".dictionary" version of black's legal dictionary (8th edition). This permits users to take advantage of the "lookup" function native to mac. For simple use, follow these steps: 
 
 1. download the .dictionary
 2. open the dictionary application
