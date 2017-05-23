@@ -31,7 +31,7 @@ double entries break dictionary compiling ==> after step 1, use excel to "remove
   - terminal looks like this: Duplicate entry_id: [PARENTAL-IMMUNITY DOCTRINE] at [the_path_goes_here]
   - source of error: if ( defined( $entryToBodyHash{ $entry_id } ) )   ...     {die "*** Duplicate entry_id: [$entry_id]";}     ...
 
-XML formatting ==> at step 2 make sure to replace special characters [characters](https://github.com/nathanReitinger/Blacks8-Mac-Dictionary/blob/master/media/xml%20special%20characters.png)
+XML formatting ==> at step 2 make sure to replace special [characters](https://github.com/nathanReitinger/Blacks8-Mac-Dictionary/blob/master/media/xml%20special%20characters.png)
 
 ### Resources
 - http://blog.nagpals.com/cfwheels-dictionary/
