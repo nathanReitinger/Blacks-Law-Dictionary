@@ -19,9 +19,9 @@ This is a beta version of a ".dictionary" version of black's legal dictionary (8
 
 ### Process
 
-1. scrape from http://dictionary.sovereignconnection.com into pandas dataframe [sovereignconnection_scraper]
-2. iterate through a dataframe and place terms and definitions in .xml format as a string, to export [build_dictionary]
-3. compile apple dictionary with customized xml [compile]
+1. scrape from http://dictionary.sovereignconnection.com into pandas dataframe [scraper]
+2. iterate through a dataframe and place terms and definitions in .xml format as a string, to export [build] 
+3. compile apple dictionary with customized xml from text file produced in step 2 [dictionary (source)]
 
 ### Notes 
 
