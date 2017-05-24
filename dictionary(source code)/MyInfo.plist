@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.apple.dictionary.MySample</string>
+	<string>com.apple.dictionary.Blacks_8_[beta]</string>
 	<key>CFBundleName</key>
 	<string>Blacks_8_[beta]</string>
 	<key>CFBundleShortVersionString</key>
@@ -13,7 +13,7 @@
 	<key>DCSDictionaryCopyright</key>
 	<string>Copyright © 2007 Apple Inc.</string>
 	<key>DCSDictionaryManufacturerName</key>
-	<string>Apple Inc.</string>
+	<string>Blacks</string>
 	<key>DCSDictionaryFrontMatterReferenceID</key>
 	<string>front_back_matter</string>
 	<key>DCSDictionaryPrefsHTML</key>
