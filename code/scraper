@@ -1,4 +1,3 @@
-
 import sys
 import pandas as pd
 import time
@@ -6,8 +5,8 @@ import requests
 from bs4 import BeautifulSoup 
 
 # NOTE #
-# - sovereignconnection's index page is down right now
-
+# - sovereignconnection changed their layout since this was used
+# - this may not work or be the most effective way to go about gathering terms
 
 ##########################################################################################
 #  import each term and path 
