@@ -8,7 +8,9 @@ $$
 
 This repo provides an accessible, yet outdated, version of [Black's Law Dictionary](https://search.worldcat.org/title/Black's-law-dictionary/oclc/44045815), which—as a primarily printed or digital but-hard-to-use resource—is not accessible to individuals with disabilities. By wrapping the dictionary in a ".dictionary" format, the user can receive offline, no-Internet-connectivity-required text-to-speech definitions, or use a screenreader, to explore the dictionary. 
 
-<video src="media/aBLD_compressed.mp4"></video>
+<video controls="" width="800" height="500" muted="False" loop="" autoplay="True">
+<source src="https://github.com/nathanReitinger/Blacks-Law-Dictionary/raw/master/media/aBLD_compressed.mp4" type="video/mp4">
+</video>
 
 :warning: **AS IS SOFTWARE**: There may be bugs! If you report them, then we can work on a patch :)
 
