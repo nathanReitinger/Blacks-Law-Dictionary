@@ -1,40 +1,67 @@
-# Black's Legal Dictionary (8th) [beta]
+$$
+\begin{align*}
+\alpha BLD
+\end{align*}
+$$
 
+---
 
-![screen](https://github.com/nathanReitinger/Blacks8-Mac-Dictionary/blob/master/media/screen.png) 
+This repo provides an accessible, yet outdated, version of [Black's Law Dictionary](https://search.worldcat.org/title/Black's-law-dictionary/oclc/44045815), which—as a primarily printed or digital but-hard-to-use resource—is not accessible to individuals with disabilities. By wrapping the dictionary in a ".dictionary" format, the user can receive offline, no-Internet-connectivity-required text-to-speech definitions, or use a screenreader, to explore the dictionary. 
 
-This is a ".dictionary" version of black's legal dictionary (8th edition). It permits users to take advantage of the "lookup" function native to mac. The definitions are not yet fully parsed (i.e., definitions appear as block text instead of parsed tenses, sub-definitions, and phonetic break-outs); however,  this does give a good preview of how the dictionary works. 
+<video src="media/alphaBLD.mp4"></video>
 
-For simple install and use, follow these steps: 
+:warning: **AS IS SOFTWARE**: There may be bugs! If you report them, then we can work on a patch :)
 
-1. download the .dictionary <[link to dictionary](https://github.com/nathanReitinger/Blacks8-Mac-Dictionary/tree/master/dictionary(download))>
-2. open your own dictionary application
-3. on the top menu, click "file" then "Open Dictionaries Folder"
-4. put the .dictionary file you just downloaded into the folder you just opened
-5. go back to your dictionary application, click "preferences" 
-6. scroll down until you find "Blacks_8_[beta]" and check that box
-7. you now have it! you can search for words in the dictionary, or use the three-finger tap 
+:warning: **NOT OFFICIAL**: Do not rely on this software to be accurate or complete
 
-![three-finger tap](https://github.com/nathanReitinger/Blacks8-Mac-Dictionary/blob/master/media/three_finger_tap.gif)
+:warning: **Mac**: This dictionary is only for macOS
 
-### TODO
-- parse: ordinals, tenses, phonetics, and sub-definitions 
-- clean: fix errors generated from scraping (how I obtained the dictionary) 
+---
 
-### Process
+### How to install
 
-1. scrape from <[sovereign connection dictionary](http://dictionary.sovereignconnection.com)> into pandas dataframe <[scraper](https://github.com/nathanReitinger/Blacks8-Mac-Dictionary/blob/master/code/scraper)>
-2. iterate through a dataframe and place terms and definitions in .xml format as a string, to export <[build](https://github.com/nathanReitinger/Blacks8-Mac-Dictionary/blob/master/code/build)>
-3. compile apple dictionary with xml text produced in step 2 <[dictionary(source)](https://github.com/nathanReitinger/Blacks8-Mac-Dictionary/tree/master/dictionary(source%20code))>
+To install the dictionary, which happens to be quite large (>30GB, due to the audio files), follow these steps: 
 
-### Notes 
+**STEP 1**: download the ".dictionary" from here ([link to dictionary](https://huggingface.co/datasets/nathanReitinger/alphaBLD/resolve/main/%E2%80%9CBLD%E2%80%9D.dictionary.zip?download=true)) ([source](https://huggingface.co/datasets/nathanReitinger/alphaBLD/blob/main/%E2%80%9CBLD%E2%80%9D.dictionary.zip))
 
-double entries break dictionary compiling ==> after step 1, use excel to "remove duplicates" 
-  - terminal returns: Duplicate entry_id: [PARENTAL-IMMUNITY DOCTRINE] at [the_path_goes_here]
-  - source from path: if ( defined( $entryToBodyHash{ $entry_id } ) )   ...     {die "*** Duplicate entry_id: [$entry_id]";}     ...
+**STEP 2**: open your own dictionary application (macOS applications) (called "Dictionary")
 
-XML formatting ==> at step 2, replace special [characters](https://github.com/nathanReitinger/Blacks8-Mac-Dictionary/blob/master/media/xml%20special%20characters.png)
+<p align="center">
+  <img alt="logo" width="65%" src="media/dict.png">
+</p>
+**STEP 3**: once "Dictionary" is open, on the top menu bar, click "file" then "Open Dictionaries Folder" (this will open a new Finder window)
+
+**STEP 4**: put the .dictionary file (keep it zipped!) you downloaded in STEP 1 into the folder opened from STEP 2
+
+<img src="media/path.png" alt="path" style="zoom:100%;" />
+
+**STEP 5**: unzip the file by double clicking on it (this might be slow!)
+
+- make sure the "Dictionaries" folder contains the `“BLD”.dictionary` file, which should contain a folder called "Contents"
+- you may delete the zip file
+
+**STEP 6**: go back to the dictionary app, click on "Dictionary" in the top left corner of the top bar, then "Settings..." and then scroll down until you find "BLD" and  check that box
+
+- you may need to close "Dictionary" and reopen it again for BLD to load
+
+**STEP 7**: you now have it! you can search for words in the dictionary as an app, or use a three-finger click to call the dictionary on a webpage or PDF reader like Preview 
+
+---
 
 ### Resources
-- http://blog.nagpals.com/cfwheels-dictionary/
-- https://github.com/SebastianSzturo/Dictionary-Development-Kit
+
+- [How can I create a dictionary for Mac OS X](https://apple.stackexchange.com/questions/80099/how-can-i-create-a-dictionary-for-mac-os-x)
+
+- [Add Custom Dictionary to MacOS](https://www.reddit.com/r/MacOS/comments/17notci/add_custom_dictionary_to_macos/)
+
+- [Spanish to English and English to Spanish dictionary for Dictionary app?](https://apple.stackexchange.com/a/119166/240383)
+
+- [CFWheels Dictionary for Mac OS X](http://blog.nagpals.com/cfwheels-dictionary/)
+
+- Older dictionary source where terms came from; has changed since data was pulled ([sovereign connection dictionary](http://dictionary.sovereignconnection.com))
+
+- [Looking for a good dictionary app](https://www.applevis.com/forum/ios-ipados/looking-good-dictionary-app)
+
+- TTS (text-to-speech) from [StyleTTS2](https://arxiv.org/abs/2306.07691) see also [huggingFace repo](https://huggingface.co/spaces/styletts2/styletts2)
+
+  <img src="media/logo.gif" alt="logo" style="zoom:33%;" />
