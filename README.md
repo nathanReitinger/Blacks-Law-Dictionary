@@ -69,4 +69,4 @@ To install the dictionary, which happens to be quite large (>30GB, due to the au
 
 - TTS (text-to-speech) from [StyleTTS2](https://arxiv.org/abs/2306.07691) see also [huggingFace repo](https://huggingface.co/spaces/styletts2/styletts2)
 
-  <img src="media/logo.gif" alt="logo" style="zoom:33%;" />
+  <img src="media/logo.gif" alt="logo" style="zoom:13%;" />
