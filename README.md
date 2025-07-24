@@ -36,7 +36,7 @@ To install the dictionary, which happens to be quite large (>30GB, due to the au
 
 **STEP 3**: once "Dictionary" is open, on the top menu bar, click "file" then "Open Dictionaries Folder" (this will open a new Finder window)
 
-**STEP 4**: put the .dictionary file (keep it zipped!) you downloaded in STEP 1 into the folder opened from STEP 2
+**STEP 4**: put the .dictionary file (keep it zipped!) you downloaded in STEP 1 into the folder opened from STEP 3
 
 <img src="media/path.png" alt="path" style="zoom:100%;" />
 
